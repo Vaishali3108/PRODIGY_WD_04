@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishali - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/vlogo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--- #MAIN -->
+
+  <main>
+
+    <!--- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/developer1.png" alt="Vaishali Rajendra Sonavane" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vaishali Rajendra Sonavane">Vaishali Rajendra Sonavane</h1>
+          <p class="title">Aspiring Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vaishalirs6923@gmail.com" class="contact-link">vaishalirs6923@gmail.com</a>
+              <br>
+              <a href="mailto:vsonavane614@gmail.com" class="contact-link">vsonavane614@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918010937851" class="contact-link">8010937851</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Thane, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vaishali-sonavane-086399310" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Vaishali3108/" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/vai_to_verse?igsh=MTc1a2Q0NGV3cXp4Ng==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--- #main-content -->
+
+    <div class="main-content">
+
+      <!--- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link data-target="about">About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="resume">Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="portfolio">Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--- #ABOUT -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Vaishali Rajendra Sonavane — an aspiring and dedicated Full Stack Developer based in Mumbai. I’m
+            passionate about turning ideas into impactful and interactive web applications by combining technical skills
+            with creativity and a problem-solving mindset.
+          </p>
+          <p>
+            I'm currently enhancing my skills through real-world projects and a hands-on Web Development Internship at
+            Prodigy InfoTech, where I'm learning to build modern, responsive websites using technologies like HTML, CSS,
+            JavaScript, and more. I enjoy working on both the front end and back end, with growing experience in
+            Tailwind CSS, PHP, MySQL, and exploring React.
+          </p>
+          <p>
+            Every project I take on is a new opportunity to learn, create, and grow. I believe in continuous learning
+            and staying up-to-date with evolving technologies to build solutions that are not only functional but also
+            user-centric.
+          </p>
+          <p>
+            Whether it’s building a clean UI, writing efficient code, or collaborating on real-world problems — I’m
+            always excited to grow as a developer and contribute meaningfully to the tech community.
+          </p>
+        </section>
+
+
+        <!--- service-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Creating clean and user-friendly designs using Figma and Tailwind CSS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/code.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Building responsive websites using HTML, CSS, JavaScript & MySQL.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/mobile.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsive Web Apps</h4>
+
+                <p class="service-item-text">
+                  Developing mobile-friendly interfaces with smooth performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/badge1.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Internship & Real-World Learning</h4>
+
+                <p class="service-item-text">
+                  Currently interning at Prodigy InfoTech & building real-world projects.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #RESUME-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering (B.E.) – Information Technology</h4>
+
+              <span>Shivajirao S. Jhondhale College of Engineering, Dombivli<br>Mumbai University | Expected:
+                2026</span>
+
+              <p class="timeline-text">
+                Coursework in software engineering, web development, and programming fundamentals.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern - Prodigy Infotech</h4>
+              <span>Present</span>
+              <p class="timeline-text">
+                Currently interning at Prodigy Infotech, gaining hands-on experience in real-world web development
+                projects and enhancing technical skills.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technology Job Simulation (Deloitte)</h4>
+              <span>June 2025</span>
+              <p class="timeline-text">
+                Completed practical tasks in Coding and Development as part of Deloitte's Technology Job Simulation.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">FRONTEND-(HTML5, CSS3, JavaScript,Tailwind CSS, Bootstrap, Core Java)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">BACKEND-(php, mysql)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+             <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">TOOLS AND PLATFORMS-(github, git, canva, vscode, jupyter)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DESIGN THINKING</h5>
+                <data value="78">78%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 78%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CURRENTLY LEARNING-(React.js, REST APIs)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+        <section class="certifications">
+          <h3 class="h3">Certifications</h3>
+          <div class="certificate-img">
+            <img src="./images/deloitte-certificate.png" alt="Deloitte Technology Job Simulation Certificate"
+              style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <p class="timeline-text">Certificate of Completion: Deloitte Technology Job Simulation, June 2025</p>
+          </div>
+          <div class="certificate-img" style="margin-top: 2rem;">
+            <img src="./images/ijarsct-certificate.png" alt="IJARSCT Research Paper Publication Certificate"
+              style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <p class="timeline-text">Certificate of Publication: IJARSCT, Volume 5, Issue 7, April 2025<br>Research
+              Paper: "Medicine Recommendation System"</p>
+          </div>
+        </section>
+
+      </article>
+
+      <!--- #PROJECTS-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./images/proj1.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Restaurant webpage</h3>
+                <p class="project-description">🌐 A modern responsive landing page with a fixed interactive navigation bar that changes style on scroll and hover. Built using HTML, CSS, and JavaScript to ensure smooth responsiveness across all devices.</p>
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./images/proj2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Stopwatch</h3>
+                <p class="project-description">⏱️ Built a sleek and responsive stopwatch web app showcasing real-time logic, clean UI, and interactive features. A blend of precision, creativity, and code clarity using HTML, CSS, and JavaScript.</p>
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./images/proj3.png" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Weather-app</h3>
+                <p class="project-description">🌦️ Built a dynamic Weather Web App featuring real-time weather data, geolocation-based search, responsive design, animated icons, and background glow effects that adapt to weather conditions — all with HTML, CSS & JavaScript. ✨</p>
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./images/proj4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tic-Tac-Toe game</h3>
+                <p class="project-description">🎮 Built a responsive Tic-Tac-Toe web app with animated gradient background, glowing title, AI opponent toggle, confetti win effect, and smooth sound-enhanced gameplay using HTML, CSS, and JavaScript.</p>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
